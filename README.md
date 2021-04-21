@@ -43,7 +43,7 @@ Statements have the following forms
 3. **Pick assignments**
 
    ```
-   {X1, ..., XN} = <expr>
+   {X1, ..., XN} <- <expr>
    ```
 
    If `<expr>` evaluates to a set, the pick assignment statement tries to pick N distinct elements from that set (in any order) and assigns them to variables `X1` to `XN`. The overall assignment evaluates to the last variable assigned. One can (experimentally) pick from infinite sets such as circles and lines; the points thus obtained are random
